@@ -10,7 +10,7 @@ export const buttonMarkup: string = `
   <div class="${BUTTON_CONTAINER}">
 
     <button
-      class="${BUTTON}"
+      class="waves-effect ${BUTTON}"
     ></button>
 
     <div class="${BUTTON_LOADER}">

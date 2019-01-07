@@ -18,7 +18,7 @@
   font-size: 0; /* Remove gap between inline-block elements */
   overflow-y: auto;
 
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0,0,0,.32);
   z-index: 10000;
   pointer-events: none;
   opacity: 0;
@@ -50,8 +50,9 @@
   pointer-events: none;
   background-color: white;
   text-align: center;
-  border-radius: 5px;
-
+  border-radius: 4px;
+  -webkit-box-shadow: 0 11px 15px -7px rgba(0,0,0,.2), 0 24px 38px 3px rgba(0,0,0,.14), 0 9px 46px 8px rgba(0,0,0,.12);
+    box-shadow: 0 11px 15px -7px rgba(0,0,0,.2), 0 24px 38px 3px rgba(0,0,0,.14), 0 9px 46px 8px rgba(0,0,0,.12);
   position: static;
   margin: 20px auto;
   display: inline-block;
@@ -72,17 +73,8 @@
     transform: scale(1);
   }
   1% {
-    transform: scale(0.5);
+    transform: scale(0.8);
   }
-
-  45% {
-    transform: scale(1.05);
-  }
-
-  80% {
-    transform: scale(0.95);
-  }
-
   100% {
     transform: scale(1);
   }
